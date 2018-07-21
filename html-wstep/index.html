@@ -52,19 +52,20 @@
 	<!--formularz-->
 
 	<form action="" method="">
-		<input type="text" name="imie">
-		<input type="email">
-		<input type="number">
-		<input type="email">
-		<input type="number">
-		<input type="radio" name='gender'>M
-		<input type="radio" name='gender'>K
-		<textarea name="" id="" maxlenght="10"></textarea>
+		<label for="imie">imie podaj</label>
+		<input id='imie' type="text" name="imie" required placeholder="podaj imie"><br>
+		<label for="mailik">podaj mail</label>
+		<input id="mailik" type="email" placeholder="podaj email"><br>
+		<input type="number" placeholder="wybierz wartosc" disabled><br>
+		<label for="gender">gender</label>
+			<input id="gender" type="radio" name='gender'>M
+			<input id="gender" type="radio" name='gender'>K<br>
+		<textarea name="" id="" maxlenght="10" placeholder="nie dziala maxlenght"></textarea><br>
 		<select name="" id="">
 			<option value="samochod">audi</option>
 			<option value="rower">mercedes</option>
 			<option value="motocykl">skoda</option>
-		</select>
+		</select><br>
 		<input type="submit">
 	</form>
 
