@@ -1,0 +1,71 @@
+body {
+	margin: 0px;
+}
+
+form {
+	background-color: #213b50;
+	color: #ffffff;
+	padding: 10px;
+	margin: 0;
+	width: 50%;
+}
+
+label {
+	display: block;
+	margin-top: 10px;
+}
+
+input{
+	background-color: #2b4a64;
+	border: none;
+}
+
+input[name=gender] {
+	display: inline;
+}
+
+input[type=radio] {
+	display: inline;
+	margin-right: 10px;
+}
+
+input:focus {
+	background-color: #4e708c;
+	border: solid white 1px;
+}
+
+option {
+	display: block;
+}
+
+textarea[name=message] {
+	background-color: #2b4a64;
+	width: 50%;
+	height: 80px;
+}
+
+textarea:focus {
+	background-color: #4e708c;
+	border: solid white 1px;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+	width: 50%;
+}
+
+input[type=submit] {
+	background: #29BE5B;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding: 10px;
+	font-weight: bold;
+}
+
+select {
+	width: 50%;
+	background-color: #2b4a64;
+	color: #fff;
+	border: 0;
+}

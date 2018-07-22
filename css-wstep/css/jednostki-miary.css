@@ -1,0 +1,41 @@
+html {
+	font-size: 16px;
+}
+
+#jednostki-miary > div {
+	background-color: rgba(45, 167, 212, 0.5);
+	margin-bottom: 10px;
+}
+
+#piksele {
+	width: 400px;
+}
+
+#em {
+	width: 100em;
+}
+
+#procenty {
+	width: 50%;	
+}
+
+#vh {
+	width: 50vh;
+}
+
+#main-nav ul li {
+	display: inline-block;
+	background: red;
+	padding: 10 px;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+}
+
+.uklad-inner {
+	float: left;
+	width: 33.33333%;
+	height: 200px;
+	background-color: green;
+}
+

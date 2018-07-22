@@ -1,0 +1,25 @@
+.box {
+	height: 200px;
+}
+
+.orange {
+	background-color: orange;
+	
+	 position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+.grey {
+	background-color: grey;
+}
+
+#main-nav {
+	position: sticky;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	background: blue;
+	color: #fff;
+}
+
