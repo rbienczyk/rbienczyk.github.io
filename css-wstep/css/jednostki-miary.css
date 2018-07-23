@@ -1,3 +1,4 @@
+/*
 html {
 	font-size: 16px;
 }
@@ -38,4 +39,65 @@ html {
 	height: 200px;
 	background-color: green;
 }
+
+.clear {
+	clear: both;
+}
+
+#tranzycja {
+	height: 200px;
+	background-color: orange;
+	width: 30%;
+}
+
+#tranzycja:hover {
+	width: 50%;
+	background-color: blue;
+	transition-property: background-color;
+	transition-property: width;
+	transition-duration: 2s;
+	transition-timing-function: ease-in;
+}
+*/
+
+#square {
+	height: 150px;
+	width: 150px;
+	margin: 10px auto;
+	transition: all 0.4s;
+}
+
+.czerwony {
+	background-color: red;
+}
+
+.czerwony:hover {
+	width: 300px;
+}
+
+.niebieski {
+	background-color: blue;
+}
+
+.niebieski:hover {
+	height: 300px;
+}
+
+.zielony {
+	background-color: green;
+}
+
+.zielony:hover {
+	width: 300px;
+	height: 300px;
+}
+
+
+
+
+
+
+
+
+
 
