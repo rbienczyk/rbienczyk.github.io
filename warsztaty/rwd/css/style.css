@@ -1,0 +1,20 @@
+.box {
+	float: left;
+	width: 25%;
+	height: 200px;
+	border: 5px solid blue;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+@media (max-width: 862px) {
+	.box {
+		width: 50%;
+	}
+}
+
+@media (max-width: 440px) {
+	.box {
+		width: 100%;
+	}
+}
