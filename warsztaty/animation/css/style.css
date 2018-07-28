@@ -1,0 +1,52 @@
+img {
+	width: 600px;
+	height: 400px;
+	margin-bottom: 20px;
+	border: 2px solid green;
+	transition: all 1s;
+	animation: all 3s;
+	transform-origin: center;
+}
+
+.rotate img:hover {
+	transform: rotate(720deg);
+}
+
+.translate img:hover {
+	transform: translate(300px, 100px);
+}
+
+.scale img:hover {
+	transform: scale(1.2);
+
+}
+
+/*
+@keyframes resize {
+	0%,
+	100% {
+		width: 100%;
+	}
+	50% {
+		width: 50%;
+	}
+}
+*/
+
+@keyframes resize {
+	0%,
+	100% {
+		transform: scale(1);
+
+	}
+	50% {
+		transform: scale(0.5);
+	}
+}
+
+.animation img:hover {
+	animation-name: resize;
+	animation-iteration-count: infinite;
+	animation-iteration-count: 6;
+	animation-timing-function: linear;
+}
