@@ -9,7 +9,6 @@
 	<link rel="stylesheet" href="css/fontawesome-all.min.css">
 
 	<!-- font roboto -->
-
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto:300,400,700&amp;subset=latin-ext" rel="stylesheet">
 
 	<!-- main css -->
@@ -19,9 +18,133 @@
 
 <body>
 
-	<i class="fab fa-html5"></i>
+	<nav id="main-nav">
+		<ul>
+			<li class="menu-item"><a href="#about">o mnie</a></li>
+			<li class="menu-item"><a href="#skills">umiejętności</a></li>
+			<li class="menu-item"><a href="#portfolio">portfolio</a></li>
+			<li class="menu-item"><a href="#contact">kontakt</a></li>
+		</ul>
+	</nav>
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, voluptas. At dolor, quae adipisci ex ab sapiente eos itaque nisi! Natus corrupti nostrum aliquam sunt impedit, dignissimos nemo magni aspernatur!</p>
+	<header id="main-header">
+		<div class="main-header-content">
+			<h1>Jan <span>Nowak</span></h1>
+			<h2>Front-End Developer</h2>
+		</div>
+	</header>
+
+	<section id="about">
+		<h2>O <span>mnie</span></h2>
+		<div class="container">
+			<figure class="about-figure width50">
+				<img src="img/jan-nowak.jpg" alt="Jan Nowak"></figure>
+			<article class="width50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sit eligendi vitae nisi perferendis quaerat obcaecati nam ratione illum consequatur, et magnam eius harum id dolor dicta fugiat? Assumenda, eos.</article>
+		</div>
+	</section>
+
+
+	<section id="skills">
+		<h2>Moje <span>umiejętności</span></h2>
+		<div class="skills">
+			<figure><i class="fab fa-html5"></i>
+				<figcaption>HTML</figcaption>
+			</figure>
+			<figure><i class="fab fa-css3-alt"></i>
+				<figcaption>CSS</figcaption>
+			</figure>
+			<figure><i class="fab fa-js"></i>
+				<figcaption>JS</figcaption>
+			</figure>
+			<figure><i class="fab fa-github"></i>
+				<figcaption>GIT</figcaption>
+			</figure>
+		</div>
+	</section>
+
+
+	<!--
+	<section>
+		<h2>Moje <span>portfolio</span></h2>
+		<div class="container">
+			<img class="folioimg" src="img/portfolio1.jpg" alt="">
+			<img class="folioimg" src="img/portfolio2.jpg" alt="">
+			<img class="folioimg" src="img/portfolio3.jpg" alt="">
+		</div>
+	</section>
+-->
+	<section>
+		<h2>Moje <span>portfolio</span></h2>
+
+		<div class="row">
+
+			<div class="column">
+
+				<div class="containerover">
+
+					<img src="img/portfolio1.jpg" alt="Snow" style="width:100%" class="image">
+
+					<div class="overlay">
+
+						<div class="text">
+
+							<h3>tekst 1</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore hic necessitatibus quis velit molestias sequi neque amet perferendis soluta minus.</p>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="column">
+
+				<div class="containerover">
+
+					<img src="img/portfolio2.jpg" alt="Snow" style="width:100%" class="image">
+
+					<div class="overlay">
+
+						<div class="text">
+
+							<h3>tekst 2</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi pariatur magnam consequatur impedit eligendi expedita maiores consectetur quasi exercitationem nostrum.</p>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="column">
+
+				<div class="containerover">
+
+					<img src="img/portfolio4.jpg" alt="Snow" style="width:100%" class="image">
+
+					<div class="overlay">
+
+						<div class="text">
+
+							<h3>tekst 3</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptas ratione at fuga consectetur esse rem, numquam delectus nemo maiores!</p>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+	<footer id="contact">
+
+
+	</footer>
 
 </body>
 

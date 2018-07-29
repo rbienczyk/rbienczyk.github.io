@@ -1,3 +1,179 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: 'lato', sans-serif;
+	margin-top: 0;
+	margin-left: 0;
+	color: #291f1a;
+}
+
+article {
+	line-height: 25px;
+}
+
+span {
+	color: #1ac056;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	text-align: center;
+	font-weight: 300;
+}
+
+section {
+	padding: 30px 60px 100px;
+	background-color: #f9fcfe;
+}
+
+.container {
+	display: flex;
+	margin: auto;
+	margin-top: 30px;
+}
+
+figure {
+	margin: 0;
+}
+
+.width50 {
+	width: 50%;
+}
+
+#main-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+}
+
+#main-nav ul {
+	float: right;
+}
+
+#main-nav ul .menu-item {
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+#main-nav ul .menu-item a {
+	color: #1ac056;
+	text-decoration: none;
+}
+
+#main-header {
+	background-image: url(../img/header-background.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-header-content {
+	color: #fff;
+}
+
+#main-header .main-header-content h1 {
+	font-family: 'roboto', sans-serif;
+	font-size: 4em;
+}
+
+#main-header .main-header-content h2 {
+	font-size: 2em;
+}
+
+#about .about-figure {
+	text-align: center;
+}
+
+#about .about-figure img {
+	max-width: 350px;
+	border-radius: 50%;
+}
+
+section#skills i {
+	font-size: 55px;
+}
+
+div.skills {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 30px;
+
+}
+
+figcaption {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+/*
+
+img.folioimg {
+	max-width: 390px;
+	max-height: 300px;
+}
+*/
+
+.column {
+	float: left;
+	width: 33.33%;
+	margin-top: 30px;
+}
+
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.containerover {
+	position: relative;
+	width: 100%;
+}
+
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: darkgray;
+
+}
+
+.containerover:hover .overlay {
+	opacity: 0.8;
+}
+
+.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
 }
