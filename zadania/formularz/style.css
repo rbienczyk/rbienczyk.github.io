@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: arial;
+}
+
+form {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d3d3d3;
+    padding: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 50%;
+    border: 1px solid orange;
+    box-sizing: content-box;
+}
+
+textarea {
+    width: 90%;
+    border: 1px solid orange;
+}
+
+input[type=submit] {
+    background: orange;
+    text-transform: uppercase;
+    padding: 10px;
+    border-color: black;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+    width: 50%;
+    border: 1px solid orange;
+}
+
+img {
+    position: absolute;
+    top: 3%;
+    left: 57%;
+}
