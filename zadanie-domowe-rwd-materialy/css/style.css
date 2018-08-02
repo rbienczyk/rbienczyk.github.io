@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 h1,
 h2 {
     color: #fff;
@@ -6,6 +10,7 @@ h2 {
 }
 
 body {
+    margin: 0;
     background-image: url(../obrazy/man-1.jpg);
     height: 100vh;
     background-size: cover;
@@ -25,6 +30,7 @@ div.methebest h2 {
 
 @media screen and (max-width: 1170px) {
     body {
+        margin: 0;
         background-image: url(../obrazy/man-2.jpg);
         height: 75vh;
         background-size: cover;
@@ -49,6 +55,7 @@ div.methebest h2 {
 
 @media screen and (max-width: 991px) {
     body {
+        margin: 0;
         background-image: url(../obrazy/man-1.jpg);
         height: 50vh;
         background-size: cover;
@@ -58,9 +65,9 @@ div.methebest h2 {
 
     div.methebest {
         position: absolute;
-        top: 55vh;
-        left: 30%;
         text-align: center;
+        top: 55vh;
+        width: 100%;
     }
 
     div.methebest h1 {
