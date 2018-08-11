@@ -4,9 +4,42 @@
 <head>
 	<meta charset="UTF-8">
 	<title></title>
+
+	<style>
+		body {
+			transition: all .6s;
+		}
+
+		.rutinoskurwysyn {
+			filter: blur(10px);
+		}
+
+		.h1-size-XXL {
+			font-size: 3rem;
+			color: red;
+			transition: all .3s;
+		}
+
+	</style>
+
 </head>
 
 <body>
+	<section id="sectionFirst">
+		<h1>sasiad konfident</h1>
+		<div id="parFirst">
+			<p>Tekst w tym akapicie.</p>
+			<a class="link" href="#" onclick="alert('uwaga dupa');">Akapit Link 1</a>
+			<a class="link" href="#" onclick="changeBody(event);">zmien na green</a>
+		</div>
+		<div id="parSecond" style="height: 100px; width: 100px; border: 1px #000 dotted;">
+			<p>Tekst w tym akapicie.</p>
+		</div>
+		<a class="link" href="">rutinoskurwysyn</a>
+		<a class="link" href="#">Link 2</a>
+		<a class="link" href="#">Link 3</a>
+		<a class="link" href="#">Link 4</a>
+	</section>
 	<script src="js/main.js"></script>
 </body>
 
