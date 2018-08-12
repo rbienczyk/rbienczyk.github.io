@@ -48,10 +48,16 @@ $(function () {
 	
 		if ($("#foodie option:selected").val() == "0") {
 			//console.log($("#foodie option:selected").val());
-			console.log("alarm");
+			console.log("alarm pizza");
 		}
 		
+		if (!($("input[name=sos]:checked")).val() ) {
+			console.log("sosa wez");
+		}
 		
+		if (!($("#rodo").is(":checked"))) {
+			console.log("auuuuu RODO");
+		}
 		
 		return false;
 		
