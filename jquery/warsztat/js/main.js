@@ -3,21 +3,62 @@
 $(function () {
 
 	let formi = $("#formi");
+	
+	let name = $("#name");
+
+	let surname = $("#surname");
+	
+	let street = $("#street");
+	
+	let hnum = $("#hnum");
+	
+	let post = $("#post");
+	
+	let city = $("#city");
 
 	let cenaPiz = $("#cena");
-	//console.log(cenaPiz);
 
 	let pizza = $("#foodie");
-	//console.log(pizza);
 
 	formi.submit(function () {
-		//console.log("wysylam form");
+		
+		if (name.val().trim() === "") {
+			console.log("imie dupa");
+		}
+		
+		if (surname.val().trim() === "") {
+			console.log("nazwisko dupa");
+		}
+		
+		if (street.val().trim() === "") {
+				console.log("ulica dupa");
+		}
+		
+		if (hnum.val().trim() === "") {
+			console.log("numer domu dupa");
+		}
+		
+		if (post.val().trim() === "") {
+			console.log("kod dupa");
+		}
+		
+		if (city.val().trim() === "") {
+			console.log("miasto dupa");
+		}
+	
+		if ($("#foodie option:selected").val() == "0") {
+			//console.log($("#foodie option:selected").val());
+			console.log("alarm");
+		}
+		
+		
+		
 		return false;
+		
 	});
 
 	pizza.change(function () {
 		let wybranaPizza = $(this).val();
-		//console.log($(this).val());
 
 		let ceny = [
 			{id: 1, nazwa: "hawajska", cena: 20},
@@ -29,8 +70,6 @@ $(function () {
 
 		ceny.forEach(function (element) {
 			if (wybranaPizza == element.id) {
-				//console.log(element.cena);
-				//$("span#cena").html("<span>PLN</span>")
 				cenaPiz.text(element.cena + " PLN");
 			}
 
