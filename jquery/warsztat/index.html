@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<form name="formularz" id="formi" action="" method="POST">
+		<label for="imie">imie:</label>
+		<input type="text" name="imie"><br><br>
+
+		<label for="nazwisko">nazwisko:</label>
+		<input type="text" name="nazwisko"><br><br>
+
+		<label for="ulica">ulica:</label>
+		<input type="text" name="ulica"><br><br>
+
+		<label for="numer_domu">numer domu:</label>
+		<input type="number" name="numer_domu"><br><br>
+
+		<label for="kod_pocztowy">kod pocztowy:</label>
+		<input type="number" name="kod_pocztowy"><br><br>
+
+		<label for="miasto">miasto:</label>
+		<input type="text" name="miasto"><br><br>
+
+		<label for="pizza">pizza:</label>
+		<select name="pizza" id="foodie">
+			<option value="0" selected disabled hidden>wybierz</option>
+			<option value="1">hawajska</option>
+			<option value="2">piekielna</option>
+			<option value="3">szynka</option>
+			<option value="4">warzywka</option>
+			<option value="5">szatanska</option>
+		</select>
+		<span id="cena">0 PLN</span><br><br>
+
+		<p>sosik:</p>
+		<label><input type="radio" name="sos">ostry lagodny</label><br>
+		<label><input type="radio" name="sos">ostry mocny</label><br><br>
+
+
+
+		<label><input type="checkbox" required> Potwierdzam 100% nieznajomość regulaminu. Kto ma czas na czytanie regulaminów</label><br><br>
+
+		<label for="wyslij">kliknij aby wyslac:</label><br><br>
+		<input type="submit" id="wyslij">
+	</form>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
