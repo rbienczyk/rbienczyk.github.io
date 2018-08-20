@@ -66,8 +66,10 @@ div.methebest h2 {
     div.methebest {
         position: absolute;
         text-align: center;
-        top: 55vh;
+        top: 60vh;
         width: 100%;
+        left: auto;
+        right: auto;
     }
 
     div.methebest h1 {
