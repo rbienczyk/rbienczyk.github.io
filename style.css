@@ -1,52 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2 {
+    color: #fff;
+    font-family: verdana;
+    text-transform: uppercase;
+}
+
 body {
     margin: 0;
-    font-family: arial;
+    background-image: url(../obrazy/man-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
 }
 
-form {
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #d3d3d3;
-    padding: 15px;
-}
-
-label {
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-select {
-    width: 50%;
-    border: 1px solid orange;
-    box-sizing: content-box;
-}
-
-textarea {
-    width: 90%;
-    border: 1px solid orange;
-}
-
-input[type=submit] {
-    background: orange;
-    text-transform: uppercase;
-    padding: 10px;
-    border-color: black;
-    font-weight: bold;
-    font-size: 18px;
-
-}
-
-input[type=text],
-input[type=email],
-input[type=tel] {
-    width: 50%;
-    border: 1px solid orange;
-}
-
-img {
+div.methebest {
     position: absolute;
-    top: 3%;
-    left: 57%;
+    left: 3%;
+    top: 40%;
+}
+
+div.methebest h2 {
+    font-size: 50px;
+}
+
+@media screen and (max-width: 1170px) {
+    body {
+        margin: 0;
+        background-image: url(../obrazy/man-2.jpg);
+        height: 75vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div.methebest {
+        position: absolute;
+        left: 59%;
+        top: 10%;
+    }
+
+    div.methebest h1 {
+        font-size: 24px;
+    }
+
+    div.methebest h2 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    body {
+        margin: 0;
+        background-image: url(../obrazy/man-1.jpg);
+        height: 50vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    div.methebest {
+        position: absolute;
+        text-align: center;
+        top: 52vh;
+        width: 100%;
+        left: auto;
+        right: auto;
+    }
+
+    div.methebest h1 {
+        font-size: 24px;
+    }
+
+    div.methebest h2 {
+        font-size: 33px;
+    }
+
+    h1,
+    h2 {
+        color: black;
+    }
 }
